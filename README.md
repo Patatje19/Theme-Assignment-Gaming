@@ -1,2 +1,3 @@
-# Theme-Assignment-Gaming
-Helicopter Academy SFML, a simple game with characteristics of the orginal Flappy Bird game.
+# Helicopter Academy SFML
+
+Based on the Flappy Bird clone by SonarSystems <https://github.com/SonarSystems/Flappy-Bird-SFML-Clone>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SFML Flappy Bird">
+      <UniqueIdentifier>{a600a198-a183-4f84-80cd-2e858de2fdf9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="Flash.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="Land.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssetManager.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINITIONS.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="Flash.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="Land.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashState.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="State.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.hpp">
+      <Filter>SFML Flappy Bird</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Highscore.txt">
+      <Filter>SFML Flappy Bird</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

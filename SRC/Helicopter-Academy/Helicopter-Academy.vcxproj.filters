@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game_engine">
+      <UniqueIdentifier>{1345010d-fbf5-47f4-b08d-d32b3c22b3a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_states">
+      <UniqueIdentifier>{567431ff-e49b-497d-aa57-7990326c2ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_states\game_state">
+      <UniqueIdentifier>{d0fdee8e-ca07-4a81-aa00-c45c86c5be5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game_engine\asset_manager.cpp">
+      <Filter>game_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="game_engine\game.cpp">
+      <Filter>game_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="game_engine\input_manager.cpp">
+      <Filter>game_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="game_engine\state_machine.cpp">
+      <Filter>game_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\game_state\bullet.cpp">
+      <Filter>game_states\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\game_state\collision.cpp">
+      <Filter>game_states\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\game_state\enemy.cpp">
+      <Filter>game_states\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\game_state\flash.cpp">
+      <Filter>game_states\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\game_state\fuel.cpp">
+      <Filter>game_states\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\game_state\fuel_bar.cpp">
+      <Filter>game_states\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\game_state\helicopter.cpp">
+      <Filter>game_states\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\game_state\land.cpp">
+      <Filter>game_states\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\game_state\wall.cpp">
+      <Filter>game_states\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\game_over.cpp">
+      <Filter>game_states</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\game_state.cpp">
+      <Filter>game_states</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\main_menu_state.cpp">
+      <Filter>game_states</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\splash_state.cpp">
+      <Filter>game_states</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="game_states\game_state\score_display.cpp">
+      <Filter>game_states\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="game_states\game_state\animation.cpp">
+      <Filter>game_states\game_state</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game_engine\asset_manager.h">
+      <Filter>game_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="game_engine\game.h">
+      <Filter>game_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="game_engine\input_manager.h">
+      <Filter>game_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="game_engine\state.h">
+      <Filter>game_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="game_engine\state_machine.h">
+      <Filter>game_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\game_state\bullet.h">
+      <Filter>game_states\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\game_state\collision.h">
+      <Filter>game_states\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\game_state\enemy.h">
+      <Filter>game_states\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\game_state\flash.h">
+      <Filter>game_states\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\game_state\fuel.h">
+      <Filter>game_states\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\game_state\fuel_bar.h">
+      <Filter>game_states\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\game_state\land.h">
+      <Filter>game_states\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\game_state\wall.h">
+      <Filter>game_states\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\game_over.h">
+      <Filter>game_states</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\game_state.h">
+      <Filter>game_states</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\main_menu_state.h">
+      <Filter>game_states</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\splash_state.h">
+      <Filter>game_states</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h" />
+    <ClInclude Include="game_states\game_state\helicopter.h">
+      <Filter>game_states\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\game_state\score_display.h">
+      <Filter>game_states\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="game_states\game_state\animation.h">
+      <Filter>game_states\game_state</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
